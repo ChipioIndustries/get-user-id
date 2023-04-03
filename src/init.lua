@@ -7,7 +7,7 @@ local function getUserId(player)
 	if not player and RunService:IsClient() then
 		player = Players.LocalPlayer
 	end
-	assert(instanceOf("Player")(player))
+	assert(t.instanceOf("Player")(player))
 	return tostring(player.UserId)
 end
 
