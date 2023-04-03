@@ -1,0 +1,6 @@
+{
+	"name": "get-user-id",
+	"tree": {
+		"$path": "src"
+	}
+}
